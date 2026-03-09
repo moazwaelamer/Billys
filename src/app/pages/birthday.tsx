@@ -2,6 +2,11 @@ import { Cake, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import img from "../../asst/birthday.png";
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.jpeg";
+declare module "*.svg";
+declare module "*.mp4";
 
 export function BirthdayService() {
   return (

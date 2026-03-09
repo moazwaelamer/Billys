@@ -3,7 +3,11 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X, User, LogOut } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../../asst/logo.png";
-
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.jpeg";
+declare module "*.svg";
+declare module "*.mp4";
 export function Navigation() {
 
 const [isOpen,setIsOpen] = useState(false)
