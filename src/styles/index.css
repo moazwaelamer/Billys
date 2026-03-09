@@ -51,5 +51,3 @@
     0% { stroke-dashoffset: 480; }
     100% { stroke-dashoffset: 0; }
 }
-
-@import "tw-animate-css";
