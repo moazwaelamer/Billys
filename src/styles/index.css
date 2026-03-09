@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './fonts.css';
-@import './tailwind.css';
-@import './theme.css';
 
 /* React Slick Carousel Styles */
 @import 'slick-carousel/slick/slick.css';
