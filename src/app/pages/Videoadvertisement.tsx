@@ -1,5 +1,5 @@
  import { motion } from "framer-motion";
-import videoAd from "../../asst/finalbillys.mp4";
+
 
 export function VideoAdSection(){
 
@@ -24,7 +24,7 @@ Experience The Ultimate Gaming Room
     className="relative aspect-[9/16] h-[600px] border-[8px] border-zinc-800 rounded-[3rem] overflow-hidden shadow-2xl bg-black"
   >
     <video
-      src={videoAd}
+      src={""}
       className="w-full h-full object-cover"
       autoPlay loop muted playsInline controls
     />
